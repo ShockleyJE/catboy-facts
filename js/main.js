@@ -35,7 +35,7 @@ function updateCatfact(){
     .then(res => res.json()) // parse response as JSON
     .then(data => {
       console.log(data);
-      fact = data.data[0];
+      fact = data.data[0].replace('cat', 'catboy');
       catfactParagraphElement = document.getElementById('catfact')
       catfactParagraphElement.innerHTML = fact;
       console.log(fact);

@@ -43,7 +43,7 @@ body {
 
 p {
   width: 80%;
-  margin: 10% 10%;
+  margin: 0% 10%;
   font-family: 'Roboto', sans-serif;
   color: white;
   font-size: xx-large;
@@ -63,6 +63,9 @@ footer {
 img {
   margin: 10% 10%;
   width: 80%;
+  max-width: 540px;
+  max-height: 600px;
+
 }
 
 /******************************************
